@@ -47,7 +47,7 @@
   .navbar-divider{
     margin: 0 auto;
     border-bottom: 0.01px;
-    border-color: rgba(143, 143, 143, 0.2);
+    border-color: #999898;
     width: 95%;
   }
 
