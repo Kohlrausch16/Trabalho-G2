@@ -1,0 +1,48 @@
+footer {
+	background-color: #2F2E2E;
+	color: #E1E1E1;
+    margin: 0px;
+	padding: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+	margin-top: 50px;
+    font-family: "Inter", serif;
+}
+
+nav{
+    display: flex;  
+}
+
+.about{
+	list-style: none;
+    text-align: left;
+}
+
+.user{
+    margin-left: 300px;
+    text-align: left;
+    list-style: none;
+}
+
+
+p{
+    font-weight: bold;
+    margin: 0px; 
+}
+
+
+a {
+	color: #E1E1E1;
+	text-decoration: none;
+    font-size: 15px;
+}
+
+.copy{
+    margin-top: 70px;
+    margin-left: 500px;
+}
+
+.copy p {
+    font-weight:200;
+    font-size: 15px;
+}
