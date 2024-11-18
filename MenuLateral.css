@@ -1,0 +1,59 @@
+
+.MenuLateral{
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    margin-left: 1043px;
+    height: 268px;
+    color: #453C3C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#Titulo{
+    flex: 30%;
+    background-color: #FCFCFC;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    align-content: center;
+}
+
+
+#Subtotal{
+    flex: 20%;
+    background-color: #FCFCFC;
+    align-content: center;
+    font-size: 20px;
+}
+
+#Frete{
+    flex: 20%;
+    background-color: #FCFCFC;
+    align-content: center;
+    font-size: 20px;
+}
+
+#Total{
+    flex: 30%;
+    background-color: #F3F3F3;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-content: center;
+}
+
+
+button{
+    width: 384px;
+    margin-left: 1043px;
+    height: 60px;
+    border: none;
+    margin-top: 10px;
+    background-color: #9BD2FF;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #228de4;
+}

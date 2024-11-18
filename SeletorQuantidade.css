@@ -1,0 +1,9 @@
+.SeletorQuantidade {
+    height: 60px;
+    width: 60px;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    border: none;
+  }
