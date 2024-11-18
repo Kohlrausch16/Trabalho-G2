@@ -19,7 +19,7 @@ const Footer = () => {
                 </ul>
 
                 <ul className='copy'>
-                    <p>© 2024 Store.com</p>
+                    <p>© 2024 MyStore.com</p>
                 </ul>
             </nav>
         </footer>

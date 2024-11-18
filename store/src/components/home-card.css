@@ -1,0 +1,48 @@
+#card{
+    text-align: left;
+    font-family: "Inter", serif;
+}
+
+.card{
+    border: none;
+    background-color: #F3F3F3;
+}
+
+hr{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+img{
+    margin-bottom:-20px;
+    padding: 0px;
+}
+
+.Name-Item{
+    font-weight: 400;
+    color: #453C3C;
+}
+
+.Value-Item{
+    font-weight: 400;
+    color:#999898
+}
+
+
+section{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    width: 100%;
+    background-color: FFFFFF;
+
+}
+
+.content{
+
+    background-color: FFFFFF;
+    width: 95%;
+
+    display: flex;
+    
+}
