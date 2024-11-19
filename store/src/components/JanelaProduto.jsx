@@ -27,7 +27,7 @@ function JanelaProduto(){
                             </div>
 
                             <div className="carousel-item">
-                                <img src="./assets/images/TecladoEMouse.png" style={{width: "583px", height: "477px"}} alt="pic3"/>
+                                <img src="./assets/images/Setup.jpg" style={{width: "583px", height: "477px"}} alt="pic3"/>
                             </div>
                         </div>
 
