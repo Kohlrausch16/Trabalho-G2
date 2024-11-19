@@ -1,4 +1,4 @@
-button{
+.NextButton{
     height: 45px;
     width: 110px;
     border-radius: 7px;
@@ -9,6 +9,6 @@ button{
     padding: 0px;
 }
 
-i{
+#arrow{
     color: #FFFFFF; 
 }

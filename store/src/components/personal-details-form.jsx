@@ -10,31 +10,31 @@ const PersonalDetailsForm = () => {
           <form action="">
                 <div class="input-group">
                     <label>Nome</label>
-                    <input type="text" id="nome" />
+                    <input className='inputuser' type="text" id="nome" />
 
                     <label>CPF</label>
-                    <input type="text" id="cpf" />
+                    <input className='inputuser' type="text" id="cpf" />
 
                     <label>E-mail</label>
-                    <input type="email" id="email" />
+                    <input className='inputuser' type="email" id="email" />
 
                     <label>Senha</label>
-                    <input type="password" id="senha" />
+                    <input className='inputuser' type="password" id="senha" />
 
-                    < NextButton /> 
+                    <NextButton /> 
                 </div>
                 <div class="input-group">
                     <label>Sobrenome</label>
-                    <input type="text" id="sobrenome" />
+                    <input className='inputuser' type="text" id="sobrenome" />
 
                     <label>Data de Nascimento</label>
-                    <input placeholder='dd/mm/aaaa' type="date" id="telefone" />
+                    <input className='inputuser' placeholder='dd/mm/aaaa' type="date" id="nascimento" />
 
                     <label>Telefone</label>
-                    <input placeholder='(DDD) Telefone' type="tel" id="telefone" />
+                    <input className='inputuser' placeholder='(DDD) Telefone' type="tel" id="telefone" />
 
                     <label>Confirmar senha</label>
-                    <input type="password" id="ConfirmaSenha" />
+                    <input className='inputuser' type="password" id="ConfirmaSenha" />
                 </div>      
           </form>   
 

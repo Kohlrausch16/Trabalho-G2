@@ -4,7 +4,7 @@ import './next-button.css';
 const NextButton = () => {
     return (
         <>
-        <button>Avançar  <i class="fa-solid fa-chevron-right fa-sm"></i></button>
+        <button className='NextButton'>Avançar  <i id='arrow' className="fa-solid fa-chevron-right fa-sm"></i></button>
     </>
     );
   };

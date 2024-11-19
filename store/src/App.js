@@ -1,12 +1,11 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Login from "./pages/Login";
+import Navbar from "./components/navbar.jsx";
 import Home from "./pages/Home";
-import './App.css';
+import Login from "./pages/Login";
 
 
-
-
-function App() {
+const App = () => {
   return (
     <Router>
       <Routes>
@@ -15,6 +14,6 @@ function App() {
       </Routes>
     </Router>
   );
-}
+};
 
 export default App;
