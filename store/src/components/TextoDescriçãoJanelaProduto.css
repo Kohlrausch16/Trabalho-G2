@@ -1,0 +1,26 @@
+.BlocoTexto{
+    margin-top:  121px;
+}
+
+.TituloEPreco{
+    color: #453C3C;
+    font-size: 30px;
+    margin-left: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Texto{
+    color: #999898;
+    font-size: 15px;
+    margin-left: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.CiHeart{
+    color: #f76b6b;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+
+
