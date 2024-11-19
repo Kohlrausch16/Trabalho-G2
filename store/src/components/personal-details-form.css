@@ -25,14 +25,47 @@ label {
 }
 
 .inputuser {
-    padding: 8px;
+    padding: 10px;
     width: 100%;
     height: 45px;
     border: none;
-    background-color: #f0f0f0;
+    background-color: #F9F9F9;
     color: #453C3C;
     outline: none;
     margin-bottom: 40px;
-    border-radius: 7px;
 }
 
+#nome{
+    border-radius: 7px;  
+}
+
+#telefone{
+    border-radius: 7px;  
+}
+
+#cpf{
+    border-radius: 7px;  
+}
+
+
+#email{
+    border-radius: 7px;  
+}
+
+
+#senha{
+    border-radius: 7px;  
+}
+
+#sobrenome{
+    border-radius: 7px;  
+}
+
+
+#nascimento{
+    border-radius: 7px;  
+}
+
+#ConfirmaSenha{
+    border-radius: 7px;  
+}
