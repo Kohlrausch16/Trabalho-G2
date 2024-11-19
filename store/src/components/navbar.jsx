@@ -17,7 +17,7 @@ const Navbar = () => {
         <ul className="navbar-links-right">
             <input class="input-search" ></input>
             <a href="/"><i class="fa-solid fa-magnifying-glass fa-lg"></i></a>
-            <li><a href="/">Login</a></li>
+            <li><a href="/login">Login</a></li>
             <a href="/"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
 
         </ul>
