@@ -19,15 +19,15 @@ function JanelaProduto(){
 
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src="/images/TecladoEMouse.png" style={{width: "583px", height: "477px"}} alt="pic1"/>
+                                <img src="./assets/images/TecladoEMouse.png" style={{width: "583px", height: "477px"}} alt="pic1"/>
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/images/ImagemTeclado.jpg" style={{width: "583px", height: "477px"}} alt="pic2" />
+                                <img src="./assets/images/TecladoEMouse.png" style={{width: "583px", height: "477px"}} alt="pic2" />
                             </div>
 
                             <div className="carousel-item">
-                                <img src="/images/Setup.jpg" style={{width: "583px", height: "477px"}} alt="pic3"/>
+                                <img src="./assets/images/TecladoEMouse.png" style={{width: "583px", height: "477px"}} alt="pic3"/>
                             </div>
                         </div>
 

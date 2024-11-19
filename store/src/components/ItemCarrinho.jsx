@@ -9,7 +9,7 @@ function ItemCarrinho() {
       <div className="ItemCarrinho">
           <div id="FlexCarrinho">
             <div className="CardCarrinho">
-              <img src="/images/TecladoEMouse.png" id="image" />
+              <img src="./assets/images/TecladoEMouse.png" id="image" />
             </div> 
           </div>
 
