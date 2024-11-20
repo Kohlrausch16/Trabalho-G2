@@ -12,7 +12,7 @@ const AccountConfirmation = () => {
         <br /><br /><br /><br />
 
         <Confirmation />
-
+        
         <Footer />
     </div>
   );

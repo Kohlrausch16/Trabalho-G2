@@ -3,8 +3,16 @@
 .account-confirmation{
     color: #453C3C;
     text-align: center;
+    font-family: "Inter", serif;
 }
 
 #smile-face{
     color: #B8DFFF;
+}
+
+.start-button{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }

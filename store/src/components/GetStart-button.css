@@ -1,6 +1,6 @@
-#NextButton{
+#GetStart{
     height: 45px;
-    width: 110px;
+    width: 160px;
     border-radius: 7px;
     border: none;
     background-color: #9BD2FF;
@@ -16,7 +16,5 @@
 }
 
 
-#arrow-right{
-    color: #FFFFFF; 
-    margin-left: 15px;
-}
+
+
