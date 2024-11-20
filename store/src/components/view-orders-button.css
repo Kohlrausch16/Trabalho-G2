@@ -13,6 +13,10 @@
     align-items: center; 
     justify-content: center; 
     font-family: "Inter", serif;
+    transition: transform 0.3s, opacity 0.3s;
 }
 
 
+#ViewOrdersButton:hover{
+    transform: scale(1.05); 
+}

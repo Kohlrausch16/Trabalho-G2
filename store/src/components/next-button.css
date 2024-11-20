@@ -13,10 +13,16 @@
     align-items: center; 
     justify-content: center; 
     font-family: "Inter", serif;
+    transition: transform 0.3s, opacity 0.3s;
 }
 
 
 #arrow-right{
     color: #FFFFFF; 
     margin-left: 15px;
+}
+
+
+#NextButton:hover{
+    transform: scale(1.05); 
 }
