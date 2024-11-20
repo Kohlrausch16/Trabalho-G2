@@ -1,10 +1,15 @@
 import React from 'react';
 import './buy-button.css';
+import { Link } from 'react-router-dom';
 
-const BuyButton = () => {
+function BuyButton ({link}) {
     return (
         <>
-        <button>Comprar</button>
+
+        <Link to={link} id='buy-button'>
+            Comprar
+        </Link>
+
     </>
     );
   };

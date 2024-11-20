@@ -1,13 +1,19 @@
 import React from 'react';
 import './checkout-button.css';
+import { Link } from 'react-router-dom';
 
-const CheckoutButton = () => {
+function CheckoutButton ({link}){
     return (
         <>
-        <button>Fechar Pedido</button>
+        <Link to={link} id='checkout-button'>
+            Fechar Pedido
+        </Link>
     </>
     );
   };
   
 export default CheckoutButton;
   
+
+
+

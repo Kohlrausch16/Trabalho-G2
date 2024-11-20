@@ -1,11 +1,17 @@
-button{
-    height: 50px;
-    width: 100px;
+#buy-button{
+    height: 45px;
+    width: 110px;
     border-radius: 7px;
     border: none;
     background-color: #9BD2FF;
     color: #FFFFFF;
     margin: 0px;
     padding: 0px;
+    border-radius: 7px;
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
     font-family: "Inter", serif;
 }
+

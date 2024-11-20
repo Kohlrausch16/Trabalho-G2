@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import PersonalAddress from "./pages/PersonalAddress.jsx"
 import AccountConfirmation from "./pages/AccountConfirmation.jsx";
+import OrderConfirmation from "./pages/OrderConfirmation.jsx";
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/login/PersonalAddress" element={<PersonalAddress />} />
         <Route path="/login/PersonalAddress/AccontConfirmation" element={<AccountConfirmation />} />
+        <Route path="/OrderConfirmation" element={<OrderConfirmation />} />
       </Routes>
     </Router>
   );

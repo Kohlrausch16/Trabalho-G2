@@ -1,13 +1,20 @@
 import React from 'react';
 import './add-CartButton.css';
+import { Link } from 'react-router-dom';
 
-const AddToCartButton = () => {
+function AddToCartButton ({link}){
     return (
         <>
-        <button>Adicionar ao carrinho</button>
+      <Link to={link} id='add-to-cart-button'>
+        Adicionar ao carrinho
+      </Link>
     </>
     );
   };
   
 export default AddToCartButton;
+
+
+
+
   
