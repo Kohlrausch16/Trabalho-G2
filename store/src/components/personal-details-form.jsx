@@ -28,9 +28,6 @@ const PersonalDetailsForm = () => {
           </section>
 
 
-
-
-
       <section class="input-section">
           <form action="">
                 <div class="input-group">
