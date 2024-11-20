@@ -9,7 +9,7 @@ const PersonalAddress = () => {
   return (
     <div className="PersonalAdress">
       <NavBar />
-      <br /><br /><br /><br />
+      <br /><br />
       <PersonalAddressForm />
 
 

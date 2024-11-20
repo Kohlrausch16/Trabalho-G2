@@ -8,7 +8,7 @@ const Login = () => {
   return (
     <div className="Login">
         <Navbar />
-        <br /><br /><br /><br />
+        <br /><br />
         <PersonalDetailsForm />
         
 

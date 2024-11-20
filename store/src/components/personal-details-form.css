@@ -69,3 +69,61 @@ label {
 #ConfirmaSenha{
     border-radius: 7px;  
 }
+
+
+.progress-bar-section{
+    height: 150px;
+    width: 100%;
+    margin-bottom: 50px;
+    font-family: "Inter", serif;
+    font-size: 15px;
+    
+}
+
+
+.progress-bar {
+    text-align: center;
+    width: 50%;
+    height: 150px;
+
+}
+
+.icon-group{
+    align-items: center; 
+    justify-content: space-around;
+    display: flex; 
+    margin-bottom: 20px;
+}
+
+.label-group{
+    align-items: center;
+    justify-content: space-around; 
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+.bar{
+    width: 100%;
+    height: 10px;
+    background-color: #DEF1FF;
+}
+
+#smile{
+    color: #9BD2FF;
+}
+
+#location{
+    color: #9BD2FF;
+}
+
+#user{
+    color: #9BD2FF;
+}
+
+.progress-user{
+    background-color: #9BD2FF;
+    width: 15%;
+    height: 10px;
+
+}

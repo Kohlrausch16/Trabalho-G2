@@ -7,6 +7,33 @@ import BackButton from '../components/back-button';
 const PersonalAddressForm = () => {
     return (
         <>
+          <section className='progress-bar-section'>
+          
+          <div className='progress-bar'>
+            <div className='label-group'>
+              <p>Dados pessoais</p>
+              <p>Endereço</p>
+              <p>Cadastro finalizado</p>
+            </div>
+            <div className='icon-group'>
+            <i id='user' class="fa-solid fa-user fa-3x"></i>
+            <i id='location' class="fa-solid fa-location-dot fa-3x"></i>
+            <i id='smile' class="fa-regular fa-face-smile fa-3x"></i>
+
+            </div>
+            <div className='bar'>
+                  <div className='progress-address'></div>
+                </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
       <section class="input-section">
           <form action="">
                 <div class="input-group">
