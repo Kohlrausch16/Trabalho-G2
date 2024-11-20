@@ -23,7 +23,7 @@ const PersonalAddressForm = () => {
                     <input className='inputuser' type="text" id="estado" />
 
 
-                    <div className='buttons-group'><BackButton /> <NextButton /></div>
+                    <div className='buttons-group'><BackButton link="/login"/> <NextButton link="/login/PersonalAddress/AccontConfirmation"/></div>
 
                 </div>
                 <div class="input-group">

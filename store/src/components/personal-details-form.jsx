@@ -21,7 +21,7 @@ const PersonalDetailsForm = () => {
                     <label>Senha</label>
                     <input className='inputuser' type="password" id="senha" />
 
-                    <NextButton />
+                    <NextButton  link="/login/PersonalAddress"/>
                 </div>
                 <div class="input-group">
                     <label>Sobrenome</label>
