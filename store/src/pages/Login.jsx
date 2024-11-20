@@ -11,7 +11,7 @@ const Login = () => {
         <br /><br /><br /><br />
         <PersonalDetailsForm />
         
-        <br /><br /><br /><br />  <br /><br /><br /><br />
+
         <Footer />
     </div>
   );

@@ -1,11 +1,19 @@
 import React from "react";
+import PersonalAddressForm from "../components/personal-address-form.jsx";
+import NavBar from "../components/navbar.jsx";
+import Footer from "../components/footer.jsx";
 
 
 
 const PersonalAddress = () => {
   return (
     <div className="PersonalAdress">
-        <h1>Personal Addres</h1>
+      <NavBar />
+      <br /><br /><br /><br />
+      <PersonalAddressForm />
+
+
+      <Footer />
     </div>
   );
 };

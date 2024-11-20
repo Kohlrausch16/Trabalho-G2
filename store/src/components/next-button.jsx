@@ -1,13 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './next-button.css';
 
 const NextButton = () => {
     return (
-        <>
-       <a href="/"> <button id='NextButton' type='submit' >Avançar  <i id='arrow' className="fa-solid fa-chevron-right fa-sm"></i></button></a>
-    </>
+        <Link to="/login/PersonalAddress" id="NextButton">
+            Avançar <i id="arrow-right" className="fa-solid fa-chevron-right fa-sm"></i>
+        </Link>
     );
-  };
-  
+};
+
 export default NextButton;
-  

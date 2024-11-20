@@ -8,9 +8,14 @@
     margin: 0px;
     padding: 0px;
     border-radius: 7px;
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
 
-#arrow{
+#arrow-right{
     color: #FFFFFF; 
+    margin-left: 15px;
 }

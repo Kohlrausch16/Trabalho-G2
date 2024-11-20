@@ -1,5 +1,5 @@
-button{
-    height: 50px;
+#BackButton{
+    height: 45px;
     width: 110px;
     border-radius: 7px;
     border: none;
@@ -7,8 +7,17 @@ button{
     color: #FFFFFF;
     margin: 0px;
     padding: 0px;
+    border-radius: 7px;
+    text-align: center;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 
-i{
+#arrow-left{
     color: #FFFFFF; 
+    margin-right: 15px;
 }
+
+
+

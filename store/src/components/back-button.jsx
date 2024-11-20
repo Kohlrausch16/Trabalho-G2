@@ -1,13 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './back-button.css';
 
 const BackButton = () => {
     return (
         <>
-        <button><i class="fa-solid fa-chevron-left fa-sm"></i> Voltar</button>
+        <Link to="/login" id="BackButton">
+        <i id='arrow-left' class="fa-solid fa-chevron-left fa-sm"></i> Voltar
+        </Link>
     </>
     );
   };
   
 export default BackButton;
+
+
+
   

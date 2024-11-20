@@ -1,0 +1,76 @@
+.input-section {
+    display: flex;
+}
+
+
+form{
+    display: flex;
+    gap: 30px;
+    width: 50%;
+
+}
+
+
+.input-group {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+
+label {
+    margin-bottom: 0px;
+    font-family: "Inter", serif;
+    color: #453C3C;
+    font-size: 15px;
+}
+
+.inputuser {
+    padding: 10px;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: #ebe7e7;
+    color: #453C3C;
+    outline: none;
+    margin-bottom: 40px;
+}
+
+#CEP{
+    border-radius: 7px;  
+}
+
+#numero{
+    border-radius: 7px;  
+}
+
+#bairro{
+    border-radius: 7px;  
+}
+
+
+#estado{
+    border-radius: 7px;  
+}
+
+
+#logradouro{
+    border-radius: 7px;  
+}
+
+#complemento{
+    border-radius: 7px;  
+}
+
+
+#pais{
+    border-radius: 7px;  
+}
+
+#municipio{
+    border-radius: 7px;  
+}
+
+.buttons-group{
+    display: flex;
+    gap: 20px;
+}
