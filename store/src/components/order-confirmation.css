@@ -9,9 +9,12 @@
 }
 
 
-.confirm-order-section h1{
+.title-sucess-order{
     margin-bottom: 50px;
     font-size: 50px;
+    opacity: 0; 
+    transform: translateY(20px);
+    animation: Anim_1 1s ease forwards;
 }
 
 
@@ -68,4 +71,14 @@
     background-color: #FCFCFC;
     padding-top:10px ;
     border-radius: 7px;
+}
+
+
+
+
+@keyframes Anim_1 {
+    to {
+        opacity: 1;
+        transform: translateY(10);
+    }
 }

@@ -8,7 +8,7 @@ const ConfirmOrder = () => {
     return (
         <>
         <section className='confirm-order-section'>
-            <h1>Seu pedido foi realizado! 🎉</h1>
+            <h1 className='title-sucess-order'>Seu pedido foi realizado! 🎉</h1>
 
             <div className='confirm-order-content'>
                 <div className='box-content'>

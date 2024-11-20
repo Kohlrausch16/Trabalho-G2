@@ -8,7 +8,20 @@
 
 #smile-face{
     color: #B8DFFF;
+    opacity: 0; 
+    transform: translateY(20px);
+    animation: Anim_1 1s ease forwards;
 }
+
+
+@keyframes Anim_1 {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
 
 .start-button{
     display: flex;
