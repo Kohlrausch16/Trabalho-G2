@@ -125,9 +125,18 @@ label {
     color: #9BD2FF;
 }
 
-.progress-address{
+.progress-address {
+    height: 100%;
     background-color: #9BD2FF;
-    width: 50%;
-    height: 10px;
-
+    width: 0;
+    opacity: 1;
+    transform: translateX(0);
+    animation: progressAddress 1s ease forwards;
 }
+
+@keyframes progressAddress {
+    to {
+        width: 50%;
+    }
+}
+
