@@ -1,0 +1,71 @@
+.confirm-order-section{
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: #453C3C; 
+    font-family: "Inter", serif;
+}
+
+
+.confirm-order-section h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+
+.confirm-order-content h1{
+    font-size: 25px;
+}
+
+.confirm-order-content{
+    width: 40%;
+
+
+}
+
+.order-details{
+    padding: 0px 30px  20px 30px;
+    border-radius: 7px;
+    display: flex;
+    background-color: #FCFCFC;
+    justify-content: space-between; 
+
+
+}
+
+.order-labels{
+    text-align: left;
+    list-style: none;
+    color: #999898;
+}
+
+
+.order-labels li{
+    margin-bottom: 15px;
+}
+
+
+.order-values{
+    text-align: right;
+    list-style: none;
+}
+
+.order-values li{
+    margin-bottom: 15px;
+}
+
+.button-group{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+
+.box-content{
+    background-color: #FCFCFC;
+    padding-top:10px ;
+    border-radius: 7px;
+}
