@@ -7,4 +7,10 @@
     border-radius: 10px;
     text-align: center;
     align-content: center;
+    animation: enter 2s;
+}
+
+@keyframes enter{
+    0%{margin-left: -60px;}
+    100%{margin-left: 57px;}
 }

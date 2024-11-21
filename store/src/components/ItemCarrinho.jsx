@@ -1,6 +1,6 @@
-import { HiTrash } from "react-icons/hi2";
 import SeletorQuantidade from "./SeletorQuantidade";
 import "./ItemCarrinho.css";
+import img1 from "./assets/images/TecladoEMouse.png";
 
 
 function ItemCarrinho() {
@@ -9,16 +9,16 @@ function ItemCarrinho() {
       <div className="ItemCarrinho">
           <div id="FlexCarrinho">
             <div className="CardCarrinho">
-              <img src="./assets/images/TecladoEMouse.png" id="image" />
+              <img src={img1} alt="" id="image" />
             </div> 
           </div>
 
           <div id="FlexDescricao">
-            <p className="Descricao"> Teclado e Mouse Logitec </p>
+            <p className="descricao"> Teclado e Mouse Logitec </p>
           </div>
 
           <div id="FlexPreco">
-          <p> R$ 180,00 </p> 
+            <p> R$ 180,00 </p> 
           </div>
 
           <div id="FlexContador">
@@ -26,7 +26,7 @@ function ItemCarrinho() {
           </div>
 
           <div id="FlexDeletar">
-            <HiTrash className="IconeDeletar"/>
+            <i class="fa-solid fa-trash-can"></i>
           </div>
           
       </div>
@@ -34,4 +34,3 @@ function ItemCarrinho() {
 }
 
 export default ItemCarrinho;
-

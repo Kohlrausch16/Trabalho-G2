@@ -1,6 +1,6 @@
 #checkout-button{
-    height: 50px;
-    width: 220px;
+    height: 60px;
+    width: 348px;
     border-radius: 7px;
     border: none;
     background-color: #9BD2FF;
@@ -13,6 +13,7 @@
     align-items: center; 
     justify-content: center;
     transition: transform 0.3s, opacity 0.3s;
+    margin-top: 5px;
 }
 
 

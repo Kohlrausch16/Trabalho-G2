@@ -1,10 +1,14 @@
+.Content{
+    justify-content: left;
+    margin-left: 1043px;
+    margin-top: -220px;
+}
 
 .MenuLateral{
     display: flex;
     flex-direction: column;
-    width: 384px;
-    margin-left: 1043px;
-    height: 268px;
+    width: 348px;
+    height: 268px;  
     color: #453C3C;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
