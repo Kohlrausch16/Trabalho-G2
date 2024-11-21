@@ -44,20 +44,3 @@
     border-bottom-left-radius: 10px;
     align-content: center;
 }
-
-
-button{
-    width: 384px;
-    margin-left: 1043px;
-    height: 60px;
-    border: none;
-    margin-top: 10px;
-    background-color: #9BD2FF;
-    color: white;
-    font-size: 18px;
-    border-radius: 10px;
-}
-
-button:hover{
-    background-color: #228de4;
-}

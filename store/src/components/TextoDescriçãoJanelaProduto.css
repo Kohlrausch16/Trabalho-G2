@@ -1,4 +1,4 @@
-.content{
+.conteudo{
     margin-top: -540px;
     margin-left: 947px;
     width: 500px;
@@ -8,7 +8,7 @@
 
 .props{
     margin-left: -20px;
-    justify-content:center;
+    justify-content:center; 
     display: flex;
 }
 
