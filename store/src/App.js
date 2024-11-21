@@ -5,6 +5,8 @@ import Login from "./pages/Login";
 import PersonalAddress from "./pages/PersonalAddress.jsx"
 import AccountConfirmation from "./pages/AccountConfirmation.jsx";
 import OrderConfirmation from "./pages/OrderConfirmation.jsx";
+import Cart from "./pages/Cart.jsx";
+import ItemDescription from "./pages/ItemDescription.jsx";
 
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
         <Route path="/login/PersonalAddress" element={<PersonalAddress />} />
         <Route path="/login/PersonalAddress/AccontConfirmation" element={<AccountConfirmation />} />
         <Route path="/OrderConfirmation" element={<OrderConfirmation />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/description" element={<ItemDescription/>} />
       </Routes>
     </Router>
   );
