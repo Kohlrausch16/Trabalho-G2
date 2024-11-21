@@ -1,4 +1,5 @@
 import "./MenuLateral.css";
+import CheckoutButton from "./checkout-button";
 
 function MenuLateral(){
     return (
@@ -29,10 +30,10 @@ function MenuLateral(){
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;R$180,00
                 </div>
-            
+                
             </div>
 
-            <button>  Encerrar pedido </button>
+            <CheckoutButton />
         </div>
     )
 }
