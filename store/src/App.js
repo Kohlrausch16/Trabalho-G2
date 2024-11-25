@@ -7,7 +7,7 @@ import AccountConfirmation from "./pages/AccountConfirmation.jsx";
 import OrderConfirmation from "./pages/OrderConfirmation.jsx";
 import Cart from "./pages/Cart.jsx";
 import ItemDescription from "./pages/ItemDescription.jsx";
-
+import PaymentForm from "./pages/PaymentForm.jsx";
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
         <Route path="/login/PersonalAddress/AccontConfirmation" element={<AccountConfirmation />} />
         <Route path="/OrderConfirmation" element={<OrderConfirmation />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/PaymentForm" element={<PaymentForm />} />
         <Route path="/description" element={<ItemDescription/>} />
       </Routes>
     </Router>
