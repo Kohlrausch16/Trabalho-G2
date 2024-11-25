@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import PaymentSelection from "../components/PaymentSelection";
-import ConfirmOrder from "../components/order-confirmation";
+import MenuLateral from "../components/MenuLateral";
 
 function CheckoutPage() {
     return (
@@ -12,7 +12,7 @@ function CheckoutPage() {
             <br />
 
             <PaymentSelection />
-            <ConfirmOrder />
+            <MenuLateral />
 
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
