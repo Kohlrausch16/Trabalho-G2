@@ -19,8 +19,8 @@ const App = () => {
         <Route path="/login/PersonalAddress/AccontConfirmation" element={<AccountConfirmation />} />
         <Route path="/OrderConfirmation" element={<OrderConfirmation />} />
         <Route path="/cart" element={<Cart />} />
-        <Route path="/PaymentForm" element={<PaymentForm />} />
         <Route path="/description" element={<ItemDescription/>} />
+        <Route path="/PaymentForm" element={<PaymentForm />} />
       </Routes>
     </Router>
   );
