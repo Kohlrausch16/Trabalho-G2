@@ -7,7 +7,7 @@ function TextoDescricaoJanelaProduto(){
 
     return (
         
-        <div className="content">
+        <div className="conteudo">
             <div className="BlocoTexto">
                 <p className="TituloEPreco">
                     Teclado e Mouse Logitec
@@ -27,8 +27,8 @@ function TextoDescricaoJanelaProduto(){
             <br/>
             <div className="props">
                 <SeletorQuantidade />
-                <BuyButton />
-                <AddCartButton />
+                <BuyButton link="/payment"/>
+                <AddCartButton link="/cart" />
             </div>
 
         </div>

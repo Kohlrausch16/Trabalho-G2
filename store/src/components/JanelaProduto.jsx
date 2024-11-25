@@ -1,5 +1,8 @@
 
 import "./JanelaProduto.css";
+import img1 from "../components/assets/images/TecladoEMouse.png";
+import img2 from "../components/assets/images/ImagemTeclado.jpg";
+import img3 from "../components/assets/images/Setup.jpg";
 
 function JanelaProduto(){
     return(
@@ -19,15 +22,15 @@ function JanelaProduto(){
 
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img src="./assets/images/TecladoEMouse.png" style={{width: "583px", height: "477px"}} alt="pic1"/>
+                                <img src={img1} style={{width: "583px", height: "477px"}} alt="pic1"/>
                             </div>
 
                             <div className="carousel-item">
-                                <img src="./assets/images/TecladoEMouse.png" style={{width: "583px", height: "477px"}} alt="pic2" />
+                                <img src={img2} style={{width: "583px", height: "477px"}} alt="pic2" />
                             </div>
 
                             <div className="carousel-item">
-                                <img src="./assets/images/Setup.jpg" style={{width: "583px", height: "477px"}} alt="pic3"/>
+                                <img src={img3} style={{width: "583px", height: "477px"}} alt="pic3"/>
                             </div>
                         </div>
 
