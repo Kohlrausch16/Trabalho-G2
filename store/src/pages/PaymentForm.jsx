@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import PaymentSelection from "../components/PaymentSelection";
-import ConfirmOrder from "../components/ConfirmOrder";
+import ConfirmOrder from "../components/order-confirmation";
 
 function CheckoutPage() {
     return (
