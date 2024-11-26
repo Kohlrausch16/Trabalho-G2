@@ -33,7 +33,7 @@ function MenuLateral(){
             </div>
 
            
-                <CheckoutButton link="/paymentsn" />
+                <CheckoutButton link="/orderConfirmation" />
         </div>
     )
 }

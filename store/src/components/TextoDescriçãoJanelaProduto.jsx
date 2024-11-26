@@ -27,7 +27,7 @@ function TextoDescricaoJanelaProduto(){
             <br/>
             <div className="props">
                 <SeletorQuantidade />
-                <BuyButton link="/payment"/>
+                <BuyButton link="/paymentform"/>
                 <AddCartButton link="/cart" />
             </div>
 
