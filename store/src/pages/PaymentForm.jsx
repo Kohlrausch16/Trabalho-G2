@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 import PaymentSelection from "../components/PaymentSelection";
-import MenuLateral from "../components/MenuLateral";
+import MenuLateralFechamento from "../components/MenuLateral_Fechamento";
 import './PaymentForm.css'; 
 
 function CheckoutPage() {
@@ -16,7 +16,7 @@ function CheckoutPage() {
 
             <PaymentSelection />
             <br /><br /><br />
-            <MenuLateral />
+            <MenuLateralFechamento />
 
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 

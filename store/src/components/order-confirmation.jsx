@@ -2,6 +2,7 @@ import React from 'react';
 import './order-confirmation.css';
 import HomeButton from './home-button';
 import ViewOrdersButton from './view-orders-button';
+import PaymentSelection from './PaymentSelection';
 
 
 const ConfirmOrder = () => {

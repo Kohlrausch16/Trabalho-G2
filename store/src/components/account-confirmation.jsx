@@ -2,6 +2,7 @@ import React from 'react';
 import './account-confirmation.css';
 import GetStartButton from './GetStart-button';
 
+
 const Confirmation = () => {
     return (
         <>
