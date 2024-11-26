@@ -8,6 +8,7 @@
     text-align: center;
     align-content: center;
     animation: enter 2s;
+    font-family: "Inter", serif;
 }
 
 @keyframes enter{

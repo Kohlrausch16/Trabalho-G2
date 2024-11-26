@@ -3,7 +3,7 @@ import "./SeletorQuantidade.css";
 
 function SeletorQuantidade(){
     return (
-        <input type="number" className="SeletorQuantidade" />
+        <input type="number" className="SeletorQuantidade" placeholder="1" />
     );
 }
 
