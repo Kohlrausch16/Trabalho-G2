@@ -1,8 +1,13 @@
-import React from 'react';
-import './PaymentSelection.css'; 
+import React, { useState } from 'react';
+import './PaymentSelection.css';
 
 const PaymentSelection = ({ selectedMethod, setSelectedMethod }) => {
+  const [localMethod, setLocalMethod] = useState(selectedMethod || '');
   const paymentMethods = ['Pix', 'Boleto', 'Cartão de débito', 'Cartão de crédito'];
+  const handleChange = (method) => {
+    setLocalMethod(method);
+    setSelectedMethod(method);
+  };
 
   return (
     <div className="payment-selection-container">
@@ -14,8 +19,8 @@ const PaymentSelection = ({ selectedMethod, setSelectedMethod }) => {
               type="radio"
               name="paymentMethod"
               value={method}
-              checked={selectedMethod === method}
-              onChange={() => setSelectedMethod(method)}
+              checked={localMethod === method}
+              onChange={() => handleChange(method)}
             />
             {method}
           </label>
