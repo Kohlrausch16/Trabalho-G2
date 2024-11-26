@@ -6,7 +6,6 @@ const PaymentSelection = ({ selectedMethod, setSelectedMethod }) => {
 
   return (
     <div className="payment-selection-container">
-      <h2>Selecione o método de pagamento</h2>
       <div className="payment-methods">
         {paymentMethods.map((method) => (
           <label key={method} className="payment-option">
