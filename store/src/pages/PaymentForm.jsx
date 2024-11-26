@@ -12,7 +12,6 @@ function CheckoutPage() {
 
             <br />
             <div className="h1_paymentform">
-            <h2>Selecione o método de pagamento</h2>
             </div>
 
             <PaymentSelection />
